@@ -108,3 +108,47 @@ footer{
     justify-content: center;
     align-items: center;
 }
+
+/* Media Quries Are Here  */
+
+@media screen and (max-width: 688px) {
+
+    header{
+        width: 100%;
+        padding: 0;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    nav ul{
+        height: 230px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .top-banner{
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 10%;
+    }
+    .logo-section{
+        width: 100%;
+        flex-direction: column;
+        padding: 30px;
+    }
+    .popular-collection{
+        width: 100%;
+        padding: 10%;
+    }
+    .carts{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);;
+    }
+    .cart{
+        width: 90%;
+    }
+    .cart img{
+        width: 50%;
+        height: 50%;
+    }
+}
